@@ -160,12 +160,12 @@ particleContainer.appendChild(p);
 
 }
 // cursor effect
-const cursor=document.querySelector(".cursor-light");
+ const cursor=document.querySelector(".cursor-light");
 
-document.addEventListener("mousemove",e=>{
+ document.addEventListener("mousemove",e=>{
 
-cursor.style.left=e.clientX+"px";
+ cursor.style.left=e.clientX+"px"; 
 
-cursor.style.top=e.clientY+"px";
+ cursor.style.top=e.clientY+"px";
 
-});
+ });
